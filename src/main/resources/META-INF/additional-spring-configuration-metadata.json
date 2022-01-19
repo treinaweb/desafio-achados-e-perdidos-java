@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "br.com.treinaweb.achadosperdidos.token.accessKey",
+    "type": "java.lang.String",
+    "description": "Chave de assinatura para gerar os access tokens da aplicação"
+  },
+  {
+    "name": "br.com.treinaweb.achadosperdidos.token.accessExpiration",
+    "type": "java.lang.Integer",
+    "description": "Tempo de expiração do access token em segundos"
+  },
+  {
+    "name": "br.com.treinaweb.achadosperdidos.token.refreshKey",
+    "type": "java.lang.String",
+    "description": "Chave de assinatura para gerar os refresh tokens da aplicação"
+  },
+  {
+    "name": "br.com.treinaweb.achadosperdidos.token.refreshExpiration",
+    "type": "java.lang.Integer",
+    "description": "Tempo de expiração do refresh token em segundos"
+  },
+  {
+    "name": "br.com.treinaweb.achadosperdidos.s3.bucketName",
+    "type": "java.lang.String",
+    "description": "Nome do Bucket a ser utilizado no servidor da Amazon S3"
+  },
+  {
+    "name": "br.com.treinaweb.achadosperdidos.s3.accessKey",
+    "type": "java.lang.String",
+    "description": "Access key do servidor da Amazon S3"
+  },
+  {
+    "name": "br.com.treinaweb.achadosperdidos.s3.secretKey",
+    "type": "java.lang.String",
+    "description": "Secret key do servidor da Amazon S3"
+  },
+  {
+    "name": "br.com.treinaweb.achadosperdidos.s3.region",
+    "type": "com.amazonaws.regions.Regions",
+    "description": "Região do servidor da Amazon S3"
+  }
+]}
