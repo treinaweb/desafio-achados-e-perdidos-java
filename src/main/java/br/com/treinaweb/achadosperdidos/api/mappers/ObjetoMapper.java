@@ -16,6 +16,7 @@ public interface ObjetoMapper {
     Objeto toModel(ObjetoRequest objetoRequest);
 
     @Mapping(target = "imagem", source = "imagem.url")
+    @Mapping(target = "contato", source = "local.contato")
     ObjetoResponse toResponse(Objeto objeto);
 
 }

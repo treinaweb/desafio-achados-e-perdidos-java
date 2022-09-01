@@ -25,5 +25,6 @@ public class ObjetoResponse extends HateoasResponse {
     private boolean entrege;
     private LocalDateTime dataCadastro;
     private String imagem;
+    private String contato;
 
 }
